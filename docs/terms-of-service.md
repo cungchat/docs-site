@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# 📜 Điều khoản Sử dụng – Cùng Chat
+Cùng Chat
+
+# 📜 Điều khoản Sử dụng
 
 **Cùng Chat (cung.chat)** – *Giao tiếp thông minh – Bán hàng thần tốc*
 

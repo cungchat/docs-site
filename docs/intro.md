@@ -2,46 +2,47 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 🤖 Giới thiệu về Cùng Chat
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**Cùng Chat (cung.chat)** – *Giao tiếp thông minh – Bán hàng thần tốc*
 
-## Getting Started
+Đây là nền tảng **chatbot đa kênh** giúp doanh nghiệp **chăm sóc khách hàng, tư vấn dịch vụ và chốt đơn hàng nhanh chóng**. Với khả năng tự động hóa và cá nhân hóa, Cùng Chat mang đến giải pháp toàn diện để **tăng trưởng doanh thu và nâng cao trải nghiệm khách hàng**.
 
-Get started by **creating a new site**.
+---
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## ✨ Tính năng nổi bật
 
-### What you'll need
+- 💬 **Tích hợp đa kênh**  
+  Kết nối dễ dàng với Facebook Messenger, Zalo, Website chat, WhatsApp và nhiều kênh phổ biến khác.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- 🤖 **Chatbot thông minh 24/7**  
+  Tự động tư vấn sản phẩm, giải đáp thắc mắc và hỗ trợ khách hàng mọi lúc, mọi nơi.
 
-## Generate a new site
+- 🛒 **Bán hàng & chốt đơn tự động**  
+  Hỗ trợ tiếp nhận đơn hàng, xác nhận thông tin và phân bổ cho nhân viên phù hợp.
 
-Generate a new Docusaurus site using the **classic template**.
+- 📊 **CRM tích hợp**  
+  Quản lý khách hàng tập trung, theo dõi lịch sử trò chuyện và tối ưu chiến lược chăm sóc.
 
-The classic template will automatically be added to your project after you run the command:
+- 🔒 **An toàn & bảo mật**  
+  Hệ thống bảo mật hiện đại, đảm bảo dữ liệu khách hàng luôn an toàn.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+---
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## 🚀 Lợi ích cho doanh nghiệp
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- **Phản hồi tức thì**: Không bỏ sót khách hàng nào.
+- **Chốt đơn nhanh chóng**: Tăng tỷ lệ chuyển đổi nhờ quy trình bán hàng tự động.
+- **Tiết kiệm chi phí**: Giảm tải công việc lặp lại cho đội ngũ nhân sự.
+- **Nâng cao trải nghiệm khách hàng**: Giao tiếp cá nhân hóa, chuyên nghiệp, 24/7.
 
-## Start your site
+---
 
-Run the development server:
+## 📍 Liên hệ
 
-```bash
-cd my-website
-npm run start
-```
+- 🌏 Website: [https://cung.chat](https://cung.chat)
+- 📧 Email: support@cung.chat
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+---
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+> **Cùng Chat – Giao tiếp thông minh, bán hàng thần tốc.**

@@ -77,7 +77,7 @@ const config: Config = {
       title: 'CungChat AI',
       logo: {
         alt: 'CungChat AI',
-        src: 'img/logo.svg',
+        src: 'img/logo-cungchat.png',
       },
       items: [
         {

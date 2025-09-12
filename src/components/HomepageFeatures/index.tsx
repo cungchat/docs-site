@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Tích hơp đa kênh',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Kết nối dễ dàng với Facebook Messenger, Zalo, Website chat, WhatsApp và nhiều kênh phổ biến khác.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Chatbot thông minh 24/7',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Tự động tư vấn sản phẩm, giải đáp thắc mắc và hỗ trợ khách hàng mọi lúc, mọi nơi.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Bán hàng & chốt đơn tự động',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Hỗ trợ tiếp nhận đơn hàng, xác nhận thông tin và phân bổ cho nhân viên phù hợp.
       </>
     ),
   },

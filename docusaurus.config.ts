@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Cungchat AI docs',
-  tagline: 'Giao tiếp thông minh - Bán hàng thần tốc',
+  tagline: 'Cùng Chat hăng say – Đơn chốt liền tay',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

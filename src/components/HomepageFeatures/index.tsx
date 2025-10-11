@@ -5,45 +5,50 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg?: React.ComponentType<React.ComponentProps<'svg'>>;
+  imgSrc: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Tích hơp đa kênh',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Cài đặt dễ dàng',
+    imgSrc: require('@site/static/img/simple-chatbot-setup-interface.jpg').default,
     description: (
       <>
-        Kết nối dễ dàng với Facebook Messenger, Zalo, Website chat, WhatsApp và nhiều kênh phổ biến khác.
+        Cùng Chat cung cấp sẵn các nội dung mẫu theo từng ngành nghề.<br/>
+        Bạn chỉ cần chỉnh sửa trên excel để hoàn thiện dữ liệu huấn luyện chatbot AI của bạn.
       </>
     ),
   },
   {
-    title: 'Chatbot thông minh 24/7',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Nhận thông báo & tác vụ tức thì',
+    imgSrc: require('@site/static/img/real-time-notification-dashboard-with-chat-message.jpg').default,
     description: (
       <>
-        Tự động tư vấn sản phẩm, giải đáp thắc mắc và hỗ trợ khách hàng mọi lúc, mọi nơi.
+        Chatbot thu thập thông tin đơn hàng theo yêu cầu của bạn và lên đơn nháp.<br/>
+        Nội dung đơn hàng sẽ được gửi ngay về cho bạn.
       </>
     ),
   },
   {
-    title: 'Bán hàng & chốt đơn tự động',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'An toàn & bảo mật',
+    imgSrc: require('@site/static/img/secure-encrypted-chat-conversation-with-shield-and.jpg').default,
     description: (
       <>
-        Hỗ trợ tiếp nhận đơn hàng, xác nhận thông tin và phân bổ cho nhân viên phù hợp.
+        Cùng Chat có cơ chế lọc các nội dung độc hại và tục tĩu trong cuộc hội thoại với khách hàng.<br/>
+        Cùng Chat cam kết đảm bảo an toàn & riêng tư mọi dữ liệu của bạn.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, imgSrc, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={imgSrc} className={'mb-6 h-64 w-full overflow-hidden rounded-lg'}
+             style={{borderRadius: '8px', height: '384px', overflow: 'hidden'}} alt={title} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
